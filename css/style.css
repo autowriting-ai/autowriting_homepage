@@ -235,7 +235,7 @@ section {
 }
 
 .col-2 {
-    width: 50%;
+    width: 49.5%;
 }
 
 .col-3 {
@@ -860,7 +860,7 @@ h6 {
 
 .icon-top .icon {
     position: relative;
-    display: block;
+    display: inline-block;
 }
 
 .icon-top .icon-block-description {
@@ -2219,7 +2219,7 @@ blockquote {
     }
 
     .col-3, .col-4, .col-6, .col-8, .col-10, .col-12 {
-        width: 50%;
+        width: 100%;
     }
 
     /*-----------------Header Elements-----------------*/
@@ -2247,6 +2247,7 @@ blockquote {
 
     #banner-content.row {
         padding-top: 85px !important;
+        text-align:center;
     }
 
     /*Navigation*/

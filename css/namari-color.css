@@ -141,7 +141,19 @@ a:hover, #header.nav-solid nav a:hover {
         background-size: contain;
     }
 }
+@media screen and (max-width: 1024px){
+    #banner {
+        background-position: right bottom;
+    }
+    #banner h1{
+        font-size:48px;
+        background:rgb(255,255,255,0.8);
+    }
+    #banner h2{
+        background:rgb(255,255,255,0.8);
+    }
 
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -344,4 +356,32 @@ h6 {
 
 #landing-footer i {
     color:#999;
+}
+#content ul {
+    padding-left:20px;
+    line-height:24px;
+}
+#content ul li{
+    padding-bottom:6px;
+}
+/* 모바일 대응 */
+@media (min-width: 480px) and (max-width: 767px) {
+    .section-heading{
+        text-align:center;
+    }
+    .section-heading h2:after{
+        display:inline-block;
+    }
+    #banner .section-heading:before{
+        display:inline-block;
+    }
+    #content{
+        text-align:center;
+    }
+    .testimonial.bigtest{
+        text-align:center;
+    }
+    #img-lama{
+        width:50%;
+    }
 }
