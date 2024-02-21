@@ -971,6 +971,8 @@ blockquote {
 .testimonial.bigtest q {
     font-size: 22px;
     word-break: keep-all;
+    overflow-wrap: break-word;
+    white-space:normal;
 }
 
 /* --------- 6.4 Gallery ---------- */
@@ -1490,6 +1492,8 @@ blockquote {
     color:#765c5c;
     margin:0;
     word-break: keep-all;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 
