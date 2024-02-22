@@ -136,14 +136,23 @@ a:hover, #header.nav-solid nav a:hover {
     background: #fcfcfc url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
     background-size:cover;
 }
+.banner-for-mobile{display: none;}
 @media all and (min-width:1920px) {
     #banner{
         background-size: contain;
     }
+
 }
-@media screen and (max-width: 1024px){
+@media (min-width:1024px) and (max-width:1919px) {
     #banner {
-        background-position: right bottom;
+        background-position: right top;
+    }
+
+}
+
+@media screen and (max-width: 1023px){
+    #banner {
+        background-position: right top;
     }
     #banner h1{
         font-size:48px;
@@ -152,8 +161,8 @@ a:hover, #header.nav-solid nav a:hover {
     #banner h2{
         background:rgb(255,255,255,0.8);
     }
-
 }
+@media screen and (max-width: 1023px)
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -369,6 +378,16 @@ h6 {
 #content ul li{
     padding-bottom:6px;
 }
+
+/* 커스텀 */
+
+#banner .button.call-to-action{
+    font-size:30px;
+    background-color:#fff;
+}
+.button.call-to-action{
+    font-size:20px;
+}
 /* 모바일 대응 */
 @media (min-width: 480px) and (max-width: 767px) {
     .section-heading{
@@ -388,5 +407,11 @@ h6 {
     }
     #img-lama{
         width:50%;
+    }
+    #banner{
+        background:none;
+    }
+    .banner-for-mobile{
+        display:block;
     }
 }
