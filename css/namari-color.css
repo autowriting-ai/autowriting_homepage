@@ -32,10 +32,10 @@ a:hover, #header.nav-solid nav a:hover {
 /* Default Icon Color */
 
 .icon i {
-    color: #22327c;
+    color: #ffffff;
 }
 .icon i.doubling {
-    color: #df575a;
+    color: #FD6584;
     position:absolute;
     left:-2px;
     top:-1px;
@@ -44,7 +44,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-    background: #df575a;
+    background: #FD6584;
 }
 
 .pricing-block-content:hover {
@@ -99,7 +99,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 .section-heading h2:after {
-    background:#df575a;
+    background:#FD6584;
     content:"";
     display:block;
     width:30px;
@@ -133,7 +133,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: #fcfcfc url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background: #fcfcfc url("../images/banner-images/main-visual2.svg") no-repeat center top;
     background-size:cover;
 }
 .banner-for-mobile{display: none;}
@@ -162,7 +162,7 @@ a:hover, #header.nav-solid nav a:hover {
         background:rgb(255,255,255,0.8);
     }
 }
-@media screen and (max-width: 1023px)
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -382,7 +382,7 @@ h6 {
 /* 커스텀 */
 
 #banner .button.call-to-action{
-    font-size:30px;
+    font-size:20px;
     background-color:#fff;
 }
 .button.call-to-action{
@@ -413,5 +413,21 @@ h6 {
     }
     .banner-for-mobile{
         display:block;
+    }
+
+}
+@media screen and (max-width: 479px){
+
+    #banner{
+        background:none;
+    }
+    .banner-for-mobile{
+        display:block;
+    }
+    #banner .button.call-to-action{
+        height:70px;
+    }
+    .button.call-to-action{
+        height:58px;
     }
 }
